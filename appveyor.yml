@@ -8,8 +8,10 @@ skip_tags: true
 
 environment:
   matrix:
-    - nodejs_version: '4'
-    - nodejs_version: '0'
+    - nodejs_version: '5.3'
+    - nodejs_version: '4.2'
+    - nodejs_version: '0.12'
+    - nodejs_version: '0.10'
 
 os: Visual Studio 2015
 
